@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #93939335;
+}
+
+.nav__logo {
+  padding: 10px 20px;
+  font-family: 'Comfortaa';
+  font-weight: 700;
+  color: #1E2A32;
+}
+
+.nav__title {
+  padding: 10px 20px;
+  font-family: 'Comfortaa';
+  font-weight: 700;
+  color: #1E2A32;
+  margin-left: auto;
+}
+
+.nav__wars {
+  color: #2555be;
+}
+/*# sourceMappingURL=Nav.css.map */

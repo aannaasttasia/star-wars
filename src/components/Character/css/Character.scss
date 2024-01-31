@@ -1,0 +1,45 @@
+$phone: 320px;  
+$tablet: 500px;
+$laptop: 1200px;
+$desktop: 1400px;
+$large-display: 1920px;
+
+@mixin resize($size) {
+    $result: $size;
+      @media only screen and (max-width: $large-display){
+        $result: $size * 2;
+        font-size: $result;
+    }
+    @media only screen and (max-width: $desktop){
+        $result: $size * 1.5;
+        font-size: $result;
+    }
+    @media only screen and (max-width: $laptop){
+        $result: $size * 1;
+        font-size: $result;
+    }
+    @media only screen and (max-width: $tablet){
+        $result: $size * .75;
+        font-size: $result;
+    }
+      @media only screen and (max-width: $phone) {
+        $result: $size * .5;
+        font-size: $result;
+      }
+}
+
+
+li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.list-item{
+    margin: 15px;
+    border-radius: 3%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.list-item__name{
+    @include resize(16px);
+}

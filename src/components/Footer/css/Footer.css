@@ -1,0 +1,40 @@
+.about-me {
+  background-color: #031d4422;
+  font-family: #031d44;
+}
+
+.about-me .biography {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-me .biography .el {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-me .biography .el p {
+  text-align: center;
+  font-size: small;
+}
+
+.about-me .biography .el p.description {
+  height: 100%;
+}
+/*# sourceMappingURL=Footer.css.map */

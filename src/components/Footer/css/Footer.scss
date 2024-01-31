@@ -1,0 +1,23 @@
+.about-me {
+  background-color: #031d4422;
+  font-family: #031d44;
+  .biography {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .el {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      //padding: 5px;
+      p {
+        text-align: center;
+        font-size: small;
+        &.description {
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+

@@ -29,7 +29,7 @@
 
 @media only screen and (max-width: 320px) {
   .characters__title {
-    font-size: 10px;
+    font-size: 20px;
   }
 }
 
@@ -104,10 +104,17 @@ ul {
           transform: scale(1.05);
 }
 
+@media (max-width: 1050px) {
+  .characters-list {
+    -ms-grid-columns: (minmax(250px, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
 @media (max-width: 768px) {
   .characters-list {
-    -ms-grid-columns: (minmax(150px, 1fr))[auto-fill];
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 }
 /*# sourceMappingURL=CharacterList.css.map */

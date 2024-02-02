@@ -52,7 +52,7 @@ const CharactersList = () => {
       <section className="characters-list">
         {characters.map((character: CharacterType) => {
           return (
-            <div key={character.name}>
+            <div key={character.name} className="character-card">
               <Character character={character} />
             </div>
           );

@@ -77,3 +77,12 @@ ul{
 } 
 
 
+.character-card:hover {
+    transform: scale(1.05);
+}  
+
+@media (max-width: 768px) {
+    .characters-list {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}

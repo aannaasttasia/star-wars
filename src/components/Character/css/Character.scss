@@ -43,3 +43,21 @@ li{
 .list-item__name{
     @include resize(16px);
 }
+
+.list-item {
+    background-color: #f0f0f05f;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+  }
+  
+.list-item__name {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+  
+.list-item__height {
+    font-weight: bold;
+}

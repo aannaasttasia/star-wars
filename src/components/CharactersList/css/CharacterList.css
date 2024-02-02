@@ -98,4 +98,16 @@ ul {
             transform: rotate(360deg);
   }
 }
+
+.character-card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .characters-list {
+    -ms-grid-columns: (minmax(150px, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
 /*# sourceMappingURL=CharacterList.css.map */
